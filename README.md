@@ -9,7 +9,7 @@ This lists the values of these functions up to $n=2047$. $\mathrm{gnu}(2048)$ is
 
 ## The table
 
-| Order $n$ | Prime factorisation of $n$ | Number of groups $\mathrm{gnu(n)}$ | Cumulative number of groups $\mathrm{cgnu}(n)$ |
+| Order $n$ | Prime factorisation of $n$ | Number of groups $\mathrm{gnu}(n)$ | Cumulative number of groups $\mathrm{cgnu}(n)$ |
 | --- | --- | --- | --- |
 | 1 | | 1 | 1 |
 | 2 | 2 | 1 | 2 |
