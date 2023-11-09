@@ -7,6 +7,10 @@ The cumulative group number function $\mathrm{cgnu}: \mathbb{N} \to \mathbb{N}$ 
 
 This lists the values of these functions up to $n=2047$. $\mathrm{gnu}(2048)$ is currently unknown.
 
+## A remark
+
+It is a well-known result that $\mathrm{gnu}(n) = 1$ if and only if $\mathrm{gcd}(n, \varphi(n)) = 1$, where $\varphi(n)$ is the Euler totient function. Such numbers are called cyclicity-forcing numbers, since the only group of that order is the cyclic group.
+
 ## The table
 
 | Order $n$ | Prime factorisation of $n$ | Number of groups $\mathrm{gnu}(n)$ | Cumulative number of groups $\mathrm{cgnu}(n)$ |
