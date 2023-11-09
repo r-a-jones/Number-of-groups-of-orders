@@ -3,7 +3,7 @@ A markdown table displaying stats about the number of groups of orders.
 
 The group number function, $\mathrm{gnu}: \mathbb{N} \to \mathbb{N}$ is defined via $\mathrm{gnu}(n)$ is equal to the number of groups of order $n$ up to isomorphism.
 
-The cumulative group number function $\mathrm{cgnu}: \mathbb{N} \to \mathbb{N}$ is defined to be $\sum_{i=1}^n \mathrm{gnu}(n)$, equal to the number of groups of order less than or equal to $n$.
+The cumulative group number function $\mathrm{cgnu}: \mathbb{N} \to \mathbb{N}$ is defined to be ${\sum}_{i=1}^n \mathrm{gnu}(n)$, equal to the number of groups of order less than or equal to $n$ up to isomorphism.
 
 This lists the values of these functions up to $n=2047$. $\mathrm{gnu}(2048)$ is currently unknown.
 
